@@ -1,0 +1,37 @@
+img {
+}
+
+#cooperate {
+  background-image: url('../../assets/img/header/cooperate.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#photography {
+  background-image: url('../../assets/img/header/photo.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+#freelance {
+  background-image: url('../../assets/img/beach.jpg');
+  background-size: contain;
+}
+
+#social {
+  background-image: url('../../assets/img/header/socail.jpg');
+  background-size: cover;
+}
+
+#write {
+  animation-name: write;
+  animation-duration: 7s;
+  animation-timing-function: steps(40,end);
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-play-state: '';
+}
+

@@ -1,0 +1,21 @@
+.img-hvr-scale {
+  transform: scale(1.0) !important;
+  object-fit: cover;
+  transition: .4s;
+  border: solid 2px;
+  color: #fe6500;
+  border-radius: 4px;
+}
+
+.img-hvr-scale:hover {
+  transform: scale(1.1) !important;
+  border: solid 2px;
+}
+
+.portfolio_heading1 {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
