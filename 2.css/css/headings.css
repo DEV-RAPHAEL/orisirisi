@@ -1,0 +1,24 @@
+.one{
+    color: blue;
+}
+.two{
+    color: red;
+}
+.three{
+    color: green;
+}
+.four{
+    color: greenyellow;
+}
+.five{
+    color: black;
+}
+.six{
+    color: teal
+    
+}
+.one,.two,.three,.four,.five,.six{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    font-weight: bolder;
+}

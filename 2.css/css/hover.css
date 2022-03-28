@@ -1,0 +1,10 @@
+button{
+    color:gold;
+    background-color: black;
+    width: 240px;
+    height: 40px;
+}
+button:hover{
+    color: white;
+    background-color: green;
+}
