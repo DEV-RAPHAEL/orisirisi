@@ -1,0 +1,8 @@
+ol{
+    width: 500px;
+    padding: 10px;
+    margin: 100px auto;
+    background: black;
+    color: white;
+    overflow: scroll;
+}

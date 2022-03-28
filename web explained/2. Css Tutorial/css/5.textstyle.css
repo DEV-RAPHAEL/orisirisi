@@ -1,0 +1,15 @@
+#whitespace-pre{
+    white-space: pre;   
+}
+#never-wrap{
+    white-space: nowrap;
+}
+#preserve-wrap{
+    white-space: pre-wrap;
+}
+#left-right{
+    direction: ltr;
+}
+#right-left{
+    direction: rtl;
+}

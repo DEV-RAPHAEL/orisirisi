@@ -1,0 +1,52 @@
+                        WHAT IS JAVASCRIPT?
+Javascript is a scripting language  that allows you to implement complex things on web pages.
+Javascript makes webpages more interactive
+Javascript is an interpreted language so you can run it on your browser no need of compiler
+Javascript runs on client side
+
+According to Stack Overflow top 10 popular languages stats, Javascriptis rated 1.
+
+                        WHAT CAN JAVASCRIPT DO?
+Javascript can build:
+Websites
+Smart Watches
+Games
+Applications
+
+                        Some Popular Javascript Frameworks
+Angular Js
+React js
+Meteor js
+Jquery
+e.t.c.
+
+                        Top Websites built with Javascript
+Amazon
+Ebay
+Youtube
+Paypal
+Netflix
+Reddit
+
+                        Benefits of Javascript
+Easy to learn
+Speed
+Provides ric Frameworks for anything you want to build:
+Games, Applications,Websites e.t.c
+No compiler neeeded
+Platform Independent (runs on any Platform... Browser, Android, IOS e.t.c)
+
+
+                        What is Variable
+Variable is a name given to a memory location that is used to store data
+syntax:
+let age;
+age = 22;
+
+                        What are constants
+Constants are fixed values that do not change while executing
+const mybirthday;
+mybirthday = '29.10.2001';
+
+
+

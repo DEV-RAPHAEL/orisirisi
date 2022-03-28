@@ -1,0 +1,26 @@
+/* body{
+    background-image: linear-gradient(to right, #0056d6, #0091e3, #00bac8, #9dd9b3,#f1f6e8);
+} */
+
+#div1,#div2,#div3,#div4{
+    /* border: 2px solid black; */
+    box-shadow: 0 0 10px rgba(0,0,0.5);
+    background: red;
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+}
+#div1:hover{
+    transform: scale(2);
+    
+}
+/* The code above styles our div on hover. */
+#div2:hover{
+    transform: rotate(45deg);
+}
+#div3:hover{
+    transform: skew(20deg,10deg);
+}
+#div4:hover{
+    transform: translate    (20px,20px);
+}

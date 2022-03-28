@@ -1,0 +1,49 @@
+#container{
+    background: black;
+    border: 2px solid red;
+    color: white;
+    border-radius: 5px;
+}
+#centered{
+    color: green;
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+}
+#top-left{
+    background: green;
+    border: 1px solid white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+#bottom-right{
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    position: absolute;
+    z-index: 5px;
+}
+#fixed{
+    position: fixed;
+    color: white;
+    background: black;
+}
+/* Fixed position won't move from the screen */
+#relative{
+    background: green;
+    border: 1px solid black;
+    height: 100px;
+}
+#relative2{
+    position: relative;
+    left: 20px;
+    top: 30px ;
+    background: yellow;
+    border: 1px solid black;
+}
+.img img{
+    width: 500px;
+    float: right;
+    
+}

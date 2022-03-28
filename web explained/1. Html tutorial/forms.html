@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+</head>
+<body>
+    <h1> Registration Form </h1>
+    <!-- Form tag is used in creating forms just as header and footer tags -->
+    <!-- id above is used in assigning a special text so as to call and style the div in our css.
+    we will be explaining more about  -->
+    <div id="name">
+    <form action="" method="">
+                <label for="First Name"> First Name </label>
+                <br>
+                <input type="text" name="First Name " placeholder="First Name" required>
+                <br>
+                <br>
+                <label for="First Name"> Last Name </label>
+                <br>
+                <input type="text" name="Last Name " placeholder="Last Name" required>
+                <!-- label is used to give our form label i.e the name on top our forms
+                input tag is used to prompt users to fill in their informations
+                placeholder is used to hint users on what to put in their form
+                required adds warning for every users i.e:you must fill this form.
+                -->
+   </div>      
+
+   <div id="gender">
+                <h5>What's Your Gender</h5>
+                <br>
+                <label for="male-gender">Male</label>
+                <input type="radio"name="gender-male"value="choice-1">
+                <label for="male-gender">Female</label>
+                <input type="radio"name="gender-female"value="choice-2">
+                <label for="male-gender">other</label>
+                <input type="radio"name="other"value="choice-3">
+                <!-- Radio allows users to tick one or all from an option -->
+   </div>
+<br>
+   <div>
+                <label for="E-mail"> E-mail </label>
+                <br>
+                <input type="email" name="E-mail Address" placeholder="yourname@domain.com">
+                <br>
+                <label for="Password"> Password </label>
+                <br>
+                <input type="password" name="Password" placeholder="Password">
+
+   </div>
+
+   <div id="option">
+                <label for="month">Birthday</label>
+                <select name="month">
+                <option value="0" selected disabled>Choose a month</option>
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may">May</option>
+                <option value="jun">June</option>
+                <option value="jul">July</option>
+                <option value="aug">August</option>
+                <option value="sep">September</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+            </select>
+            <br>
+                <label for="agree">I agree to the conditions of the form</label>
+                <input type="checkbox" name="checkbox" id="">
+                <br>
+                <button type="submit">Submit</button>
+   </div>
+    </form>
+    
+</body>
+</html>

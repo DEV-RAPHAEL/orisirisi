@@ -1,0 +1,83 @@
+                        What Is Css
+Css: Cascading styling sheet popularly known as css controls how html is displayed on our webpage
+i.e: the color, the position, the size e.t.c
+Css was created by w3c Devs: World Wide Web Consultium Developers.
+Css was first introduced in htm 3.2 but now we will be using mostly html5 as it is the latest and mostl
+popular although html 6 is out but we tend to use html 5 more.
+when saving a css file it comes with the .css extension i.e: style.css
+check: 1 in the image folder
+
+                        Basic syntax of css
+selector = selector is ussually called from our html i.e : when we create a div and give it id or class
+property = property are used for our styling i.e: font family, background color e.t.c.
+value = this state how we want our property i.e property = color, value = red.
+                    examples:
+                    color: red;
+                    font-size: 30px;
+                    background-color: black;
+The code above will make your div background black while every text entered in the div will have the
+font-size of 30px and color red.
+
+                        How To Add css To Your HTML
+There are three (3) methods of adding css to your html file these are:
+1.  External css
+2.  Internal css
+3.  Inline css
+
+External css is one the neatest and most used:
+while using Externalcss you create your css file seperately then link it up.
+i.e: <link rel="stylesheet" type="text/css" href="style.css"> afterwards you style your webpage from
+the new created file.
+
+Internal css is another way of adding style to your webpage.
+Internal css styles comes before the body tag.
+i.e:
+<style>
+    selector{
+        property: value;
+    }
+</style>
+
+i.e: <tag style="property": value"> </tag>
+check 2 in The image folder
+
+                    Css Selectors
+* = All elements
+div = All divs
+div, p = All divs and paragraphs
+div p = All paragraphs inside divs
+div > p  = Allp tags one level deep in div
+div + p = p tags immediately after div\
+div ~ p = p tags precided by divs
+.classname = all elements with class
+#idname = element with id
+div.classname = divs with certain classname
+div#idname = div with certain id
+#idname* all elements inside id name
+for more selectors check www.google.com
+We also have pesudo selectors check 4 in image with explanation folder it explained it.
+
+                                Css Box Models
+Margin
+Padding
+Border
+COntent
+
+Margin:
+The css margin property is used to create space around elements, outside of any defined borders.
+MArgin is the distance from the edge of the screen.
+
+Padding:
+The css padding property is usedn to  generate space around an element's content and border.
+Padding is in between the border and your COntent
+check image 6   
+
+Border:
+Used to specify the style, width and colour of a border surrounding an element
+
+                                        css units
+pixel = 1 pixel on any device
+point = 72 points = 1 inch
+1 em = current font size
+percentage = current font size = 100%
+       

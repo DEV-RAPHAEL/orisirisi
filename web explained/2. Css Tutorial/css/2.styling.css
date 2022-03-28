@@ -1,0 +1,53 @@
+.lorem{
+    background: black;
+    color: white;
+    border: 3px dotted red;
+    margin: 13px 13px 13px 13px;
+    padding: 20px;
+}
+/* Padding and margin moves in clockwise position which means from top - left - bottom - right  */
+#fsn{
+    font-style: normal;
+}
+#fsi{
+    font-style: italic;
+}
+#fso{
+    font-style: oblique;
+}
+#fvsc{
+    font-variant: small-caps;
+}
+#fwn{
+    font-weight: normal;
+}
+#fwb{
+    font-weight: bold;
+}
+#fwbd{
+    font-weight: bolder;
+}
+#fwl{
+    font-weight: lighter;
+}
+#fsxl{
+    font-size: x-large;
+}
+#fsl{
+    font-size: large;
+}
+#fsm{
+    font-size: medium;
+}
+#fss{
+    font-size: small;
+}
+#fsxs{
+    font-size: xx-small;
+}
+#fs2{
+    font-size: 22pt;
+}
+#fs1{
+    font-size: 150%;
+}
